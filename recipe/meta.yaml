@@ -28,7 +28,15 @@ test:
 about:
     home: https://capturer.readthedocs.org
     license: MIT
+    license_file: LICENSE.txt
     summary: 'Easily capture stdout/stderr of the current process and subprocesses.'
+    description: |
+        The capturer package makes it easy to capture the stdout and stderr streams
+        of the current process and subprocesses. Output can be relayed to the
+        terminal in real time but is also available to the Python program for
+        additional processing.
+    dev_url: https://github.com/xolox/python-capturer
+    doc_url: https://capturer.readthedocs.org
 
 extra:
     recipe-maintainers:
